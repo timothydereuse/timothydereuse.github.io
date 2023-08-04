@@ -1,0 +1,30 @@
+[
+    {
+        "name": "home",
+        "link": "/"
+    },
+    {
+        "name": "about",
+        "link": "/about.html"
+    },
+    {
+        "name": "Sounds I have recorded",
+        "link": "/sounds.html"
+    },
+    {
+        "name": "Code I have written",
+        "link": "/projects.html"
+    },
+    {
+        "name": "Things I have written (academia)",
+        "link": "/publications.html"
+    },
+    {
+        "name": "Things I have written (etc)",
+        "link": "/posts/"
+    },
+    {
+        "name": "Contact",
+        "link": "/contact/"
+    }
+]

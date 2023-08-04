@@ -1,0 +1,10 @@
+<nav>
+    {% for item in nav %}
+        <p>
+            <a href="{{ item.link }}" {% if page.url == item.link %} class="active" {% endif %}>{{ item.name }}</a>
+        </p>
+        {# {% if not loop.last %}
+                                            <span>|</span>
+                                        {% endif %} #}
+    {% endfor %}
+</nav>

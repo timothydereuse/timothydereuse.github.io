@@ -1,0 +1,49 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    background-color: rgb(72, 0, 40);
+    text-align: left;
+}
+
+#centercolumn {
+    width: 50%;
+    padding: 10px;
+    border: 10px solid rgb(81, 0, 0);
+    border-radius: 6px;
+    margin: 0;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#siteheader {
+    text-align: center;
+    margin: 5px;
+}
+
+.sidenav {
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 10px;
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: small;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}

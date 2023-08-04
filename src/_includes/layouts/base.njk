@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{# <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/> #}
+<link rel="stylesheet" href="bundle.css"/>
+<script src="/randword.js"></script>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <header id="siteheader">
+            It's
+            <h2>Tim de Reuse</h2>
+            (rhymes with "<span id="randomWordDisplay">abstruse</span>")
+        </header>
+        <div class="sidenav">
+            {% include "components/navigation.njk" %}
+        </div>
+        <div id="centercolumn">
+            {% block content %}
+                <p>
+                    Here is some placeholder content that will render if a template doesn’t define a block.
+                </p>
+            {% endblock %}
+        </div>
+    </body>
+</html></body></html>
