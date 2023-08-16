@@ -11,9 +11,9 @@ permalink: /contact.html
 
 [Curriculum Vitae](/static/pdfs/dereuse_CV.pdf) - Last updated August 2023
 
-[on Github](https://github.com/timothydereuse)
+[On Github](https://github.com/timothydereuse)
 
-## Contact
+# Contact
 
 for music stuff: <my-email data-user="wgwgsa.music" data-domain="gmail.com">@</my-email>
 

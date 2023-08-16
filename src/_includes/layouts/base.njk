@@ -14,20 +14,19 @@
             {% include "components/navigation.njk" %}
         </div>
         <div class="main">
-            
-        <header id="siteheader">
-            It's
-            <h2>Tim de Reuse</h2>
-            (rhymes with "<span id="randomWordDisplay">abstruse</span>")
-        </header>
-        
-        <div id="centercolumn">
-            {% block content %}
-                <p>
-                    Here is some placeholder content that will render if a template doesn’t define a block.
-                </p>
-            {% endblock %}
-        </div>
+            <header id="siteheader">
+                It's
+                <h3>Tim de Reuse</h3>
+                (rhymes with "<span id="randomWordDisplay">abstruse</span>")
+            </header>
+            <hr/>
+            <div id="centercolumn">
+                {% block content %}
+                    <p>
+                        Here is some placeholder content that will render if a template doesn’t define a block.
+                    </p>
+                {% endblock %}
+            </div>
         </div>
     </body>
 </html></body></html>
