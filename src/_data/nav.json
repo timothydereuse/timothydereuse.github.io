@@ -1,30 +1,22 @@
 [
     {
-        "name": "home",
+        "name": "Home / About",
         "link": "/"
     },
     {
-        "name": "about",
-        "link": "/about.html"
-    },
-    {
-        "name": "Sounds I have recorded",
-        "link": "/sounds.html"
-    },
-    {
-        "name": "Code I have written",
+        "name": "Various projects",
         "link": "/projects.html"
     },
     {
-        "name": "Things I have written (academia)",
+        "name": "Music and Sound",
+        "link": "/sounds.html"
+    },
+    {
+        "name": "Publications",
         "link": "/publications.html"
     },
     {
-        "name": "Things I have written (etc)",
-        "link": "/posts/"
-    },
-    {
-        "name": "Contact",
-        "link": "/contact/"
+        "name": "Links + Contact",
+        "link": "/contact.html"
     }
 ]

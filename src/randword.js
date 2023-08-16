@@ -35,7 +35,7 @@ function getDaySeed() {
     const estTimeStamp = utcTimeStamp - 5;
 
     // Use the timestamp as the seed for simplicity.
-    seed = estTimeStamp % 107199995;
+    seed = estTimeStamp % 107190995;
     console.log(seed)
     return seed;
 }

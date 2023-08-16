@@ -1,7 +1,11 @@
 ---
-title: 'This is a personal website'
+title: 'Yes, this is a personal website'
 layout: 'layouts/home.njk'
 permalink: '/'
 ---
 
-it's tim's personal website
+Hi. This is Tim's personal website
+
+I'm a PhD candidate in music technology at McGill University in Montreal.
+
+I write a lot of music and perform under the name Water Gun Water Gun Sky Attack.
