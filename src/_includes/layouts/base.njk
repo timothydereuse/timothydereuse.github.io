@@ -10,20 +10,24 @@
         <title>{{ title }}</title>
     </head>
     <body>
+        <div class="sidenav">
+            {% include "components/navigation.njk" %}
+        </div>
+        <div class="main">
+            
         <header id="siteheader">
             It's
             <h2>Tim de Reuse</h2>
             (rhymes with "<span id="randomWordDisplay">abstruse</span>")
         </header>
-        <div class="sidenav">
-            {% include "components/navigation.njk" %}
-        </div>
+        
         <div id="centercolumn">
             {% block content %}
                 <p>
                     Here is some placeholder content that will render if a template doesn’t define a block.
                 </p>
             {% endblock %}
+        </div>
         </div>
     </body>
 </html></body></html>

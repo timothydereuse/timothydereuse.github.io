@@ -4,7 +4,7 @@ layout: 'layouts/home.njk'
 permalink: /publications.html
 ---
 
-## Published Works
+### Published Works
 
 de Reuse, Timothy and Ichiro Fujinaga. 2022. "A Transformer-Based "Spellchecker" for Detecting Errors in OMR Output." In _Proceedings of the International Society for Music Information Retrieval Conference_. Bengaluru, India. [Poster + Presentation + Paper](https://ismir2022program.ismir.net/poster_134.html)
 
@@ -16,7 +16,7 @@ de Reuse, Timothy, and Ichiro Fujinaga. 2019. “Pattern Clustering in Monophoni
 
 de Reuse, Timothy. 2018. “A Machine Learning Approach to Pattern Discovery in Symbolic Music.” Master’s Thesis, Montreal, Canada: McGill University. 
 
-## Posters / Talks
+### Posters / Talks
 
 de Reuse, Timothy. 2023. "The Effect of Symbolic Representation Design on Notions of Difference Between Musical Scores"(Presentation, Sequences in London Workshop, London, United Kingdom, May 11-12, 2023). [Presentation](/static/pdfs/dereuse_errorRepresentation.pdf)
 

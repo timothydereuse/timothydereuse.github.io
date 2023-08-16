@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --artsize: 200px;
 }
 
@@ -27,13 +27,13 @@ header {
 #centercolumn {
     width: 50%;
     padding: 10px;
-    /* border: 10px dotted  rgb(10, 1, 0); */
+    /* border: 10px dotted  rgb(10, 1, 0); 
     border-radius: 6px;
     margin: 0;
     position: relative;
     top: 20px;
     left: 27%;
-    /* transform: translate(-50%, 0); */
+    /* transform: translate(-50%, 0); 
 }
 
 #siteheader {
@@ -48,7 +48,7 @@ header {
     top: 100px;
     left: 10%;
     background: rgb(0, 0, 0);
-    /* overflow-x: hidden; */
+    /* overflow-x: hidden; 
     padding: 8px 0;
 }
 
@@ -96,4 +96,177 @@ a:hover {
 
 .sidenav a:hover {
     color: #064579;
+} */
+:root {
+  --artsize: 200px;
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(235, 233, 235);
+}
+
+body {
+  background-color: rgb(34, 0, 19);
+  text-align: left;
+  margin: 8px;
+}
+
+header {
+  padding-top: auto;
+  text-align: center;
+  font-size: inherit;
+}
+
+h2 {
+  font-size: 3em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+nav {
+  display: inherit;
+  justify-content: inherit;
+}
+
+nav > p {
+  border-bottom: 1px solid white;
+}
+
+nav > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  margin: auto;
+}
+
+.box {
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.wrapper {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 2vw;
+  grid-auto-rows: minmax(2vh, auto);
+  margin: 0 auto;
+}
+.album-art-wrapper {
+  text-align: center;
+  width: 40vw;
+}
+.tooltip {
+  background-color: inherit;
+  color: inherit;
+  padding: inherit;
+  display: block;
+  position: inherit;
+  transform: inherit;
+  width: inherit;
+  font-size: inherit;
+
+  max-width: 35vw;
+  text-align: center;
+}
+
+.albumart {
+  margin: 0 auto;
+  width: 40vw;
+}
+
+.albumart:hover + #tooltip {
+  display: inherit;
+}
+h3 {
+  font-size: 2em;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    margin: 10px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav > p {
+    border-bottom: 0px;
+  }
+
+  nav > p > a {
+    text-decoration: underline;
+    color: white;
+  }
+  h2 {
+    font-size: 4em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    margin: 20px;
+  }
+  /* move nav to the side*/
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 15vw;
+    padding-left: 1vw;
+    padding-top: 2vw;
+    background-color: black;
+  }
+  .main {
+    margin-left: 16vw;
+  }
+
+  h2 {
+    font-size: 5em;
+  }
+  .album-art-wrapper {
+    width: 22vw;
+  }
+  .albumart {
+    width: 22vw;
+  }
+  .tooltip {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    font-weight: bold;
+    padding: 0px;
+    display: none;
+    position: absolute;
+    transform: translate(0, calc(-0.98 * 22vw));
+    width: 22vw;
+    font-size: large;
+  }
+  .wrapper {
+    grid-template-columns: repeat(3, 2fr);
+    gap: 2vw;
+    grid-auto-rows: minmax(2vh, auto);
+    margin: 0 auto;
+  }
+  .albumart:hover + .tooltip {
+    display: block;
+  }
+  .box {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }

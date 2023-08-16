@@ -11,46 +11,46 @@ I put various [generative music experiments](https://soundcloud.com/watergunsky)
 ### Discography
 
 <div class="wrapper">
-<div>
+<div class="album-art-wrapper">
     <a href=https://watergunsky.bandcamp.com/album/total-swarm-for-young-men>
-        <img id="albumart" src="/static/images/totalswarm.jpg" alt="alt text" title="image Title" />
-        <span id="tooltip"> Total Swarm for Young Men (2022) </span>
+        <img class="albumart" src="/static/images/totalswarm.jpg" alt="alt text" title="image Title" />
+        <span class="tooltip"> Total Swarm for Young Men (2022) </span>
     </a>
 </div>
-<div>
+<div class="album-art-wrapper">
     <a href=https://watergunsky.bandcamp.com/album/gay-joke>
-    <img id="albumart" src="/static/images/gayjoke.jpg" alt="alt text" title="image Title" />
-    <span id="tooltip"> Gay Joke (2019) </span>
+    <img class="albumart" src="/static/images/gayjoke.jpg" alt="alt text" title="image Title" />
+    <span class="tooltip"> Gay Joke (2019) </span>
     </a>
 </div>
-<div>
+<div class="album-art-wrapper">
     <a href=https://watergunsky.bandcamp.com/album/glow-city>
-    <img id="albumart" src="/static/images/glowcity.jpg" alt="alt text" title="image Title" />
-    <span id="tooltip"> Glow City (2016) </span>
+    <img class="albumart" src="/static/images/glowcity.jpg" alt="alt text" title="image Title" />
+    <span class="tooltip"> Glow City (2016) </span>
     </a>
 </div>
-<div>
+<div class="album-art-wrapper">
     <a href=https://watergunsky.bandcamp.com/album/i-dont-know-what-youre-worried-about>
-    <img id="albumart" src="/static/images/idkwywa.jpg" alt="alt text" title="image Title" />
-    <span id="tooltip"> I Don't Know What You're Worried About (2014) </span>
+    <img class="albumart" src="/static/images/idkwywa.jpg" alt="alt text" title="image Title" />
+    <span class="tooltip"> I Don't Know What You're Worried About (2014) </span>
     </a>
 </div>
-<div>
+<div class="album-art-wrapper">
     <a href=https://watergunsky.bandcamp.com/album/let>
-    <img id="albumart" src="/static/images/let.jpg" alt="alt text" title="image Title" />
-    <span id="tooltip">Let (2013)</span>
+    <img class="albumart" src="/static/images/let.jpg" alt="alt text" title="image Title" />
+    <span class="tooltip">Let (2013)</span>
     </a>
 </div>
-<div>
+<div class="album-art-wrapper">
     <a href=https://watergunsky.bandcamp.com/album/trouble-sleeping>
-        <img id="albumart" src="/static/images/troublesleeping.jpg" alt="alt text" title="image Title" />
-        <span id="tooltip">Trouble Sleeping? (2012)</span>
+        <img class="albumart" src="/static/images/troublesleeping.jpg" alt="alt text" title="image Title" />
+        <span class="tooltip">Trouble Sleeping? (2012)</span>
     </a>
 </div>
-<div>
+<div class="album-art-wrapper">
     <a href=https://decompose.bandcamp.com/album/decompose>
-        <img id="albumart" src="/static/images/decompose.jpg" alt="alt text" title="image Title" />
-        <span id="tooltip">Decompose (w/A Problem Like Maria) (2011) </span>
+        <img class="albumart" src="/static/images/decompose.jpg" alt="alt text" title="image Title" />
+        <span class="tooltip">Decompose (w/A Problem Like Maria) (2011) </span>
     </a>
 </div>
 </div>
