@@ -1,5 +1,5 @@
 ---
-title: 'Publications'
+title: 'Publications | Tim de Reuse'
 layout: 'layouts/home.njk'
 permalink: /publications.html
 ---

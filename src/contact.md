@@ -1,5 +1,5 @@
 ---
-title: 'about'
+title: 'Contact | Tim de Reuse'
 layout: 'layouts/home.njk'
 permalink: /contact.html
 ---

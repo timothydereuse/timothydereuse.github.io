@@ -1,10 +1,10 @@
 ---
-title: 'Other Projects'
+title: 'Other Projects | Tim de Reuse'
 layout: 'layouts/home.njk'
 permalink: /projects.html
 ---
 
-I reviewed music for [The Singles Jukebox](https://www.thesinglesjukebox.com/) from 2016 until the site's closure in 2022.
+I reviewed music for [The Singles Jukebox](https://www.thesinglesjukebox.com/) from 2016 until the site's closure in 2022. I like [this one](http://www.thesinglesjukebox.com/?p=29609) on Owen Pallett and [this one](http://www.thesinglesjukebox.com/?p=25860) on serpentwithfeet.
 
 For the first ever Summer of Mathematical Exposition (SOME) I made [a long video on a bottom-up method for deriving the Fourier Transform](https://www.youtube.com/watch?v=ToMyB5Hk06w). People seem to like it - I mean, _I_ like it, so.
 

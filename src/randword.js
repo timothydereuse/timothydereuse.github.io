@@ -20,7 +20,9 @@ const word_list = [
     "pamplemousse",
     "on the loose",
     "verjuice",
-    "burnoose"
+    "burnoose",
+    "chartreuse",
+    "white spruce"
 ]
 
 function getDaySeed() {
@@ -55,7 +57,8 @@ function generateRandomNumber(seed) {
 window.addEventListener("load", () => {
     const currentDaySeed = getDaySeed();
     const randomNumber = generateRandomNumber(currentDaySeed);
-    const word = word_list[randomNumber % word_list.length]
+    // const word = word_list[randomNumber % word_list.length]
+    const word = word_list[word_list.length * Math.random() | 0]
     console.log(randomNumber)
     document.getElementById('randomWordDisplay').textContent = word;
 });

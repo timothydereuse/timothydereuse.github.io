@@ -1,5 +1,5 @@
 ---
-title: 'Music and Sounds'
+title: 'Music and Sounds | Tim de Reuse'
 layout: 'layouts/home.njk'
 permalink: /sounds.html
 ---
