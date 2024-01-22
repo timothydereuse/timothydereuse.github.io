@@ -9,7 +9,9 @@ permalink: /contact.html
   my-email::before { content: attr(data-user); }
 </style>
 
-[Curriculum Vitae](/static/pdfs/dereuse_CV.pdf) - Last updated August 2023
+[Curriculum Vitae](/static/pdfs/dereuse_CV.pdf) - Last updated January 2024
+
+[Resume](/static/pdfs/resume.pdf) - Last updated January 2024
 
 [On Github](https://github.com/timothydereuse)
 
