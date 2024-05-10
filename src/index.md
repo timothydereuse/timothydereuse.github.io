@@ -6,9 +6,9 @@ permalink: '/'
 
 Hi. This is Tim's personal website.
 
-I'm a PhD candidate in music technology at McGill University in Montreal, Quebec. I am interested in analyzing repetition in music (pattern finding, redundancy, musical grammars), machine learning on audio and musical scores, and Carnatic (South Indian Classical) music.
+I am a Music Technology person. I am interested in analyzing repetition in music (pattern finding, redundancy, musical grammars), machine learning on audio and musical scores, and Carnatic (South Indian Classical) music.
 
-I was once a "math person." In 2015 I almost tried to become an actuary but I ended up studying road networks instead.
+I was once a "math person." In 2015 I almost tried to become an actuary but I ended up studying road networks instead. Then I got a PhD in Music Technology at McGill. Do not ask me for life advice.
 
 I write music and perform under the name Water Gun Water Gun Sky Attack. You can find it online. It's at the places where music normally is.
 
